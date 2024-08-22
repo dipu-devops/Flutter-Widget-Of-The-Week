@@ -33,7 +33,7 @@ jobs:
           ln -s ../Runner.app
           cd ..
           zip -r app.ipa Payload
-      # - name: Push to Releases
+      # - name: Push to Releasess
       #   uses: ncipollo/release-action@v1
       #   with:
       #     artifacts: "build/app/outputs/apk/release/*,build/ios/iphoneos/app.ipa"
